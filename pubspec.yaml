@@ -1,0 +1,34 @@
+name: view_core
+description: base
+version: 0.0.1
+homepage:
+
+publish_to: none
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: any
+  event_bus: ^2.0.0
+
+  locator:
+    git:
+      url: ssh://10.18.222.20:29419/HiHome/Flutter/packages/locator
+  base_station:
+    git:
+      url: ssh://10.18.222.20:29419/HiHome/Flutter/packages/base_station
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: any
+
+
+flutter:
+
+
